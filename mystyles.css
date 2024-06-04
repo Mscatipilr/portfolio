@@ -27,14 +27,14 @@ nav {
     padding: 2em 1%;
     width: 100%; 
     }
-#front-page {
+section {
     margin-top: 65%;
     z-index: 50;
 }
 img {
     width: 100%;
 }
-.front-page {
+section {
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -45,3 +45,76 @@ h1 {
 h3 {
     text-align: center;
 }
+footer {
+    overflow: auto;
+    background-color: #532E14;
+    top: 0; 
+    right: 0;
+    padding: .4em 1%;
+    width: 100%; 
+    margin-top: 55%;
+    margin-left: 0px;
+    }
+    @media only screen and (min-width: 700px) {
+        nav {
+            position: fixed;
+            overflow: auto;
+            background-color: #532E14;
+            top: 0; 
+            left: 0;
+            padding: 2em 1%;
+            height: 100%; 
+            width: 4.8%;
+            }
+        nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .button {
+            padding: .5em .5em;
+            margin: .5em;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #696969;
+            border: none;
+            border-radius: .5em;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .container {
+            max-width: 75%;
+        }
+        section {
+            margin-top: 0%;
+            padding-left: 10em;
+            z-index: 50;
+        }
+        img {
+            width: 100%;
+        }
+        section {
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 30%;
+        }
+         footer {
+                position: fixed;
+                overflow: auto;
+                background-color: #532E14;
+                top: 0; 
+                right: 0;
+                padding: .4em 1%;
+                width: 100%; 
+                margin-top: 47%;
+                padding-left: 50%;
+                }
+        footer a {
+            display: flex;
+            justify-content: center;
+        }
+            
+            }
