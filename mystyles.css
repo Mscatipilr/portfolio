@@ -102,12 +102,12 @@ footer {
             padding-bottom: 30%;
         }
          footer {
-                position: fixed;
+                display: flex;
                 overflow: auto;
                 background-color: #532E14;
                 top: 0; 
                 right: 0;
-                padding: .4em 1%;
+                padding: .4em 0%;
                 width: 100%; 
                 padding-left: 50%;
                 }
