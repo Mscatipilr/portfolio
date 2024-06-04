@@ -109,12 +109,12 @@ footer {
                 right: 0;
                 padding: .4em 1%;
                 width: 100%; 
-                margin-top: 47%;
                 padding-left: 50%;
                 }
         footer a {
             display: flex;
             justify-content: center;
+            align-items: end;
         }
             
             }
